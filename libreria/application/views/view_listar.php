@@ -4,7 +4,7 @@
 <div>
 	<ul>
 		<li><a href="<?php echo base_url();?>index.php/libro/anadirlibro">Añadir</a></li>
-		<li><a href="<?php echo base_url();?>index.php/libro/editarlibro">Editar</a></li>
+		<li><a href="<?php echo base_url();?>index.php/libro/buscarlibro">Editar</a></li>
 		<li><a href="<?php echo base_url();?>index.php">listar</a></li>
 		<li><a href="<?php echo base_url();?>index.php/libro/eliminarlibro">Eliminar</a> </li>
 	</ul>
@@ -20,7 +20,7 @@
 			<td>Editorial</td>
 			<td>Autor</td>
 		</tr>
-		<?php 
+		<?php
 		if (count($libros)) {
 			foreach ($libros as $libro) {
 				echo "<tr>";
@@ -35,12 +35,12 @@
 		} else {
 			echo "<h2>No hay ningun registro en la Base de Datos</h2>";
 		}
-		
+
 		 ?>
-	</table>	
+	</table>
 </div>
 <br>
-<?php 
+<?php
 
 	//var_dump($libros);
 
