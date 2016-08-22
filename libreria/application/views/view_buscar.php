@@ -24,7 +24,7 @@
 
     echo form_submit($submit);
     ?>
-    <font colo="red" style="font-weight: bold; font-size: 15;">
+    <font color="red" style="font-weight: bold; font-size: 15;">
       <?php echo validation_errors(); ?>
     </font>
 
